@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', sans-serif; 
+}
+.MenuContainer {
+    display: flex;
+    background: rgba(233, 232, 232, 0.514);
+    padding: 2%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.363);
+}
+.styleActive {
+    color: white;
+    background: rgb(0, 110, 255);
+    border-radius: 5%;
+    cursor: pointer;
+    padding: 0.5% 1%;
+    font-weight: 700;
+}
+.otherselector {
+    color: rgb(11, 171, 211);
+    padding: 1%;
+    padding: 0.5% 1%;
+    cursor: pointer;
+    font-weight: 700;
+}
+.bodyContainer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    text-decoration:none;
+    background: rgb(0, 110, 255);
+    padding: 0.5% 1%;
+    color: white;
+    border:none;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 5%;
+    text-decoration: none;
+}
+.borderCardMenu {
+    border:1px solid rgba(128, 128, 128, 0.363);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.MenuCard {
+    padding: 5% 10%;
+    
+}

@@ -1,0 +1,42 @@
+.primaryCard {
+    border:1px solid rgb(60, 177, 255);
+    border-radius: 2%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.secondaryCard {
+    border:1px solid grey;
+    border-radius: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.dangerCard {
+    border:1px solid rgb(219, 49, 49);
+    border-radius: 2%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.header {
+    padding: 5%;
+    background:rgba(233, 232, 232, 0.514);
+    color: rgb(85, 85, 85);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.363);
+    font-weight: bold;
+}
+.colorPrimary {
+    color: rgb(60, 177, 255);
+}
+.colorSecondary {
+    color: grey;
+}
+.colorDanger {
+    color:  rgb(219, 49, 49);
+}
+.spaceinfoCards {
+    padding: 5%;
+}
+.spaceContainerCards {
+    padding: 5% 10%;
+}
+.alingCards {
+    display: flex;
+}
